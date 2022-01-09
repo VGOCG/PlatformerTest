@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlaySound
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"entre","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"UnityEngine.AudioClip","key":"audioClip","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-178.3778,"y":-109.2889},"zoom":1.0,"elements":[{"argumentCount":1,"defaultValues":{"name":{"$content":"PlaySound","$type":"System.String"},"target":null},"position":{"x":50.0,"y":-158.0},"guid":"442e6213-4186-41ff-9fc1-3c7c0525d1a8","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"SoundManager","$type":"System.String"}},"position":{"x":-180.0,"y":-34.0},"guid":"e00c734e-765f-452c-a088-737aabd8fa9d","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"defaultValues":{},"position":{"x":-408.0,"y":-143.0},"guid":"b2aa94b4-30be-424d-8cd4-258f76052ccb","$version":"A","$type":"Bolt.GraphInput","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"entre","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"306a0ec4-df36-4579-9d59-b35fabea3397","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"b8896b29-b30c-4b59-ba89-4526aa6112fc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"audioClip","destinationUnit":{"$ref":"11"},"destinationKey":"argument_0","guid":"47edf893-27eb-42a6-8192-04cc145fbd3c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
